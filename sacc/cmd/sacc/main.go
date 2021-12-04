@@ -1,1 +1,7 @@
-package sacc
+package main
+
+import "fmt"
+
+func main() {
+	fmt.Println("helo")
+}
