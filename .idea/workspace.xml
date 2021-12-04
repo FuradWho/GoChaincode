@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="72f12987-9a03-4659-b16e-42f956a9237d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/chsi/chaincode/chsi.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chsi/cmd/chsi/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/chsi/cmd/chsi/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chsi/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/chsi/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sacc/test/sacc_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/sacc/test/sacc_test.go" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" url="file:///usr/local/go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/sacc/vendor/github.com/hyperledger/fabric-chaincode-go/shim/shim.go" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/sacc/go.mod" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/sacc/vendor/github.com/hyperledger/fabric-chaincode-go/shim/interfaces.go" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/sacc/chaincode/sacc.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/sacc/test/sacc_test.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/sacc/cmd/sacc/main.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/sacc/vendor/github.com/hyperledger/fabric-chaincode-go/shim/internal/client.go" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/sacc/vendor/github.com/hyperledger/fabric-chaincode-go/shim/internal/config.go" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/chsi/cmd/chsi/main.go" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="21nlJJLbxb2H8G8EKZUDlupEBbs" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.formatter.settings.were.checked" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager" selected="Go Test.TestInvoke in github.com/FuradWho/GoChaincode/sacc/test">
+    <configuration name="go build github.com/FuradWho/GoChaincode/chsi/cmd/chsi" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="GoChaincode" />
+      <working_directory value="$PROJECT_DIR$/chsi" />
+      <kind value="PACKAGE" />
+      <package value="github.com/FuradWho/GoChaincode/chsi/cmd/chsi" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/chsi/cmd/chsi/main.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build github.com/FuradWho/GoChaincode/sacc/chaincode" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="GoChaincode" />
+      <working_directory value="$PROJECT_DIR$/sacc" />
+      <kind value="PACKAGE" />
+      <package value="github.com/FuradWho/GoChaincode/sacc/chaincode" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/sacc/chaincode/sacc.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestInvoke in github.com/FuradWho/GoChaincode/sacc/test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="GoChaincode" />
+      <working_directory value="$PROJECT_DIR$/sacc/test" />
+      <root_directory value="$PROJECT_DIR$/sacc" />
+      <kind value="PACKAGE" />
+      <package value="github.com/FuradWho/GoChaincode/sacc/test" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestInvoke\E$" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Test.TestInvoke in github.com/FuradWho/GoChaincode/sacc/test" />
+        <item itemvalue="Go Build.go build github.com/FuradWho/GoChaincode/sacc/chaincode" />
+        <item itemvalue="Go Build.go build github.com/FuradWho/GoChaincode/chsi/cmd/chsi" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="72f12987-9a03-4659-b16e-42f956a9237d" name="Changes" comment="" />
+      <created>1638584659967</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1638584659967</updated>
+      <workItem from="1638584662352" duration="13000" />
+      <workItem from="1638584773541" duration="7170000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+  </component>
+</project>
