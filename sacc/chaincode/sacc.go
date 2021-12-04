@@ -1,4 +1,4 @@
-package main
+package chaincode
 
 import (
 	"fmt"
@@ -86,9 +86,3 @@ func get(stub shim.ChaincodeStubInterface, args []string) (string, error) {
 	return string(value), nil
 }
 
-// main function starts up the chaincode in the container during instantiate
-func main() {
-	if err := shim.Start(new(SimpleAsset)); err != nil {
-		fmt.Printf("Error starting SimpleAsset chaincode: %s", err)
-	}
-}
