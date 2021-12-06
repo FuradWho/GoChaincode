@@ -9,8 +9,6 @@ import (
 /*
 	每一个链码都要实现 Chaincode 接口 中的 Init 和 Invoke 方法
 	导入链码 shim 包和 peer protobuf 包
-
-
 */
 
 // SimpleAsset 加入一个结构体来作为 Chaincode shim 方法的接收者。
@@ -85,4 +83,3 @@ func get(stub shim.ChaincodeStubInterface, args []string) (string, error) {
 	}
 	return string(value), nil
 }
-
