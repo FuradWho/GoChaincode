@@ -1,6 +1,3 @@
-# github.com/FuradWho/GoChaincode/sacc v0.0.0-20211206073624-67dc1634be2a
-## explicit; go 1.17
-github.com/FuradWho/GoChaincode/sacc/chaincode
 # github.com/golang/protobuf v1.3.2
 ## explicit
 github.com/golang/protobuf/proto

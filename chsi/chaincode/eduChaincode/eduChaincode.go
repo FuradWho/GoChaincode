@@ -24,7 +24,15 @@ func (e *EducationChaincode) Invoke(stub shim.ChaincodeStubInterface) peer.Respo
 	fun, args := stub.GetFunctionAndParameters()
 
 	if fun == "addEdu" {
-		return e.addEdu(stub, args)
+		return e.addEdu(stub, args) // 添加信息
+	} else if fun == "queryEduByCertNoAndName" {
+		return e.queryEduByCertNoAndName(stub, args) // 根据证书编号及姓名查询信息
+	} else if fun == "queryEduInfoByEntityID" {
+		return e.queryEduInfoByEntityID(stub, args) // 根据身份证号码及姓名查询详情
+	} else if fun == "updateEdu" {
+		return e.updateEdu(stub, args) // 根据证书编号更新信息
+	} else if fun == "delEdu" {
+		return e.delEdu(stub, args) // 根据证书编号删除信息
 	}
 
 	return shim.Error("指定的函数名称错误")
@@ -105,7 +113,6 @@ func getEduByQueryString(stub shim.ChaincodeStubInterface, queryString string) (
 }
 
 func (e *EducationChaincode) addEdu(stub shim.ChaincodeStubInterface, args []string) peer.Response {
-
 	if len(args) != 2 {
 		return shim.Error("input parameter error!")
 	}
@@ -162,7 +169,7 @@ func (e *EducationChaincode) queryEduByCertNoAndName(stub shim.ChaincodeStubInte
 
 // 根据身份证号码查询详情（溯源）
 // args: entityID
-func (t *EducationChaincode) queryEduInfoByEntityID(stub shim.ChaincodeStubInterface, args []string) peer.Response {
+func (e *EducationChaincode) queryEduInfoByEntityID(stub shim.ChaincodeStubInterface, args []string) peer.Response {
 	if len(args) != 1 {
 		return shim.Error("给定的参数个数不符合要求")
 	}
@@ -230,7 +237,7 @@ func (t *EducationChaincode) queryEduInfoByEntityID(stub shim.ChaincodeStubInter
 
 // 根据身份证号更新信息
 // args: educationObject
-func (t *EducationChaincode) updateEdu(stub shim.ChaincodeStubInterface, args []string) peer.Response {
+func (e *EducationChaincode) updateEdu(stub shim.ChaincodeStubInterface, args []string) peer.Response {
 	if len(args) != 2 {
 		return shim.Error("给定的参数个数不符合要求")
 	}
@@ -273,7 +280,7 @@ func (t *EducationChaincode) updateEdu(stub shim.ChaincodeStubInterface, args []
 
 // 根据身份证号删除信息（暂不对外提供）
 // args: entityID
-func (t *EducationChaincode) delEdu(stub shim.ChaincodeStubInterface, args []string) peer.Response {
+func (e *EducationChaincode) delEdu(stub shim.ChaincodeStubInterface, args []string) peer.Response {
 	if len(args) != 2 {
 		return shim.Error("给定的参数个数不符合要求")
 	}
