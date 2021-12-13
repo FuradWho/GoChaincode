@@ -42,6 +42,8 @@ func TestInvoke(t *testing.T) {
 		fmt.Println(err)
 	}
 
+	fmt.Println(b)
+
 	cc := new(chaincode.EducationChaincode)
 	stub := shimtest.NewMockStub("chsi", cc) // 创建MockStub对象
 	// 调用Init接口，将a的值设为90

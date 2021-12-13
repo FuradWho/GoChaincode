@@ -21,5 +21,4 @@ func TestInvoke(t *testing.T) {
 	res = stub.MockInvoke("1", [][]byte{[]byte("get"), []byte("a")})
 	fmt.Println("The new value of a is", string(res.Payload))
 
-	// TODO
 }
